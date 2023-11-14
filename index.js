@@ -704,12 +704,12 @@ function mostrarContenidoSeleccionadoIngreso() {
   // Mostrar contenido correspondiente según la opción seleccionada en el dropdown
   if (selectedOption === "tsu") {
     contenidoUtl.innerHTML = `<h1>Admisiones TSU</h1>
-    <center><div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Proceso de admisión TSU 2023" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/61ddab3ca31fbb0d87451c9b" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div></center>
+    <center><div style="width: 100%;"><div style="background-color: white; position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Proceso de admisión TSU 2023" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/61ddab3ca31fbb0d87451c9b" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div></center>
     <br>
     <center><button onclick="cerrarContenidoIngreso()">Cerrar Ingresos TSU</button></center>`;
   } else if (selectedOption === "ing") {
     contenidoUtl.innerHTML = `<h1>Admisiones Ingenierías y Licenciaturas</h1>
-    <center><div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="DIAGRAMA NÚMEROS" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/6470f08a4ee68f0019b5b74f" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div></center>
+    <center><div style="width: 100%;"><div style="background-color: white; position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="DIAGRAMA NÚMEROS" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/6470f08a4ee68f0019b5b74f" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div></center>
     <br>
     <center><button onclick="cerrarContenidoIngreso()">Cerrar Ingresos Ing/Lic</button></center>`;
   }
